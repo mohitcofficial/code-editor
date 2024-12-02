@@ -1,0 +1,18 @@
+.container {
+  width: calc(100% - 280px);
+  height: 100%;
+  position: relative;
+}
+
+.countContainer {
+  color: rgb(214, 214, 214);
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1;
+}
+
+.text {
+  text-align: right;
+  margin: 2px 0;
+}
