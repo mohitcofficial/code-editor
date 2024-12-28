@@ -61,7 +61,7 @@ function SignUp() {
             <p className={classes.heading}>Sign Up</p>
             <input
               type="text"
-              placeholder={"Enter your E-mail"}
+              placeholder={"Enter your name"}
               onChange={(e) => setUsername(e.target.value)}
               value={username}
             />
